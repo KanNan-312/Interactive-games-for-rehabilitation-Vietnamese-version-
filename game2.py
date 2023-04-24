@@ -21,7 +21,7 @@ screen = pygame.display.set_mode((screenWidth, screenHeight))
 # easy
 moving_range_easy = [440, 640, 840]
 objects_easy = [1]
-speed_easy = 3
+speed_easy = 4
 
 # easy
 objects_med = [0, 1]

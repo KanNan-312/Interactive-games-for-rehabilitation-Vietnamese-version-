@@ -290,7 +290,7 @@ def main():
         for obstacle in obstacles:
             obstacle.draw(SCREEN)
             obstacle.update()
-            if player.dino_rect.colliderect(obstacle.rect):
+            if player.dino_rect.collidepoint(obstacle.rect.center):
                 pygame.time.delay(1000)
                 death_count += 1
                 run = False
